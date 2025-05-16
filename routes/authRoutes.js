@@ -4,9 +4,11 @@ import { getAllPropertiesController, registerController } from "../Controllers/a
 const router = express.Router();
 
 // POST: Register a new property
-router.post("/register", registerController);
+router.post("/uploaddata", registerController);
 
 // GET: Fetch all properties
+
 router.get("/all", getAllPropertiesController);
+//I have just psuh code ro git
 
 export default router;
